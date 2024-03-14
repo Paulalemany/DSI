@@ -50,3 +50,10 @@
     border-left-width: 7.5px;
     background-color: rgb(207, 195, 136);
 }
+
+.button {
+    flex-wrap: nowrap;
+    transform-origin: center;
+    scale: 0.5 1.25;
+    top: 9px;
+}
