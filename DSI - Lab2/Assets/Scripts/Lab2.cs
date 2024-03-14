@@ -1,18 +1,18 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Lab2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        
-    }
+        UIDocument document = GetComponent<UIDocument>();
+        VisualElement rootve = document.rootVisualElement;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        UQueryBuilder<VisualElement> builder = new(rootve);
+        List<VisualElement> list_ve = builder.ToList();
+
+        //Escribe cada elemento de la lista
+        list_ve.ForEach(e => { Debug.Log(e.name); });
     }
 }
