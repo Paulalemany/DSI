@@ -1,0 +1,46 @@
+.azul {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+    background-color: rgb(118, 179, 190);
+    border-left-color: rgb(229, 221, 221);
+    border-right-color: rgb(229, 221, 221);
+    border-top-color: rgb(229, 221, 221);
+    border-bottom-color: rgb(229, 221, 221);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 15px;
+    border-right-width: 7.5px;
+    border-bottom-width: 15px;
+    border-left-width: 7.5px;
+}
+
+.rosa {
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: rgb(195, 123, 156);
+    border-left-color: rgb(229, 221, 221);
+    border-right-color: rgb(229, 221, 221);
+    border-top-color: rgb(229, 221, 221);
+    border-bottom-color: rgb(229, 221, 221);
+    border-top-width: 15px;
+    border-right-width: 7.5px;
+    border-bottom-width: 15px;
+    border-left-width: 7.5px;
+}
+
+.verde {
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: rgb(110, 185, 150);
+    border-left-color: rgb(229, 221, 221);
+    border-right-color: rgb(229, 221, 221);
+    border-top-color: rgb(229, 221, 221);
+    border-bottom-color: rgb(229, 221, 221);
+    border-top-width: 15px;
+    border-right-width: 7.5px;
+    border-bottom-width: 15px;
+    border-left-width: 7.5px;
+}

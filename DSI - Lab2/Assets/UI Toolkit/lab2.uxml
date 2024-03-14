@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style/azul.uss?fileID=7433441132597879392&amp;guid=fd73e24912bbb4745a6fd953cab8c4ff&amp;type=3#azul" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement name="top" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="itemTop1" class="azul" style="border-right-width: 7.5px; border-left-width: 7.5px;" />
+            <ui:VisualElement name="itemTop2" class="rosa" style="border-left-width: 7.5px; border-right-width: 7.5px;" />
+            <ui:VisualElement name="itemTop3" class="verde" />
+        </ui:VisualElement>
+        <ui:VisualElement name="mid" style="flex-grow: 1; flex-direction: row; height: -92px;">
+            <ui:VisualElement name="itemMid1" class="verde" style="border-right-width: 7.5px;" />
+            <ui:VisualElement name="itemMid2" class="azul" style="border-right-width: 7.5px;" />
+            <ui:VisualElement name="itemMid3" class="rosa" style="border-right-width: 7.5px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="itemBottom1" class="rosa" style="border-right-width: 7.5px;" />
+            <ui:VisualElement name="itemBottom2" class="verde" style="border-right-width: 7.5px;" />
+            <ui:VisualElement name="itemBottom3" class="azul" style="border-right-width: 7.5px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
