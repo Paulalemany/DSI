@@ -44,3 +44,9 @@
     border-bottom-width: 15px;
     border-left-width: 7.5px;
 }
+
+.amarillo {
+    border-right-width: 7.5px;
+    border-left-width: 7.5px;
+    background-color: rgb(207, 195, 136);
+}
