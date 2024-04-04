@@ -1,0 +1,12 @@
+.unity-base-slider_dragger {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.unity-base-slider_unity-tracker {
+}
+
+.unity-base-slider_drag-container {
+}

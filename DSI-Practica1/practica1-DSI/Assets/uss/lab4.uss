@@ -1,0 +1,24 @@
+.item {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    width: 408px;
+    border-left-color: rgb(7, 63, 41);
+    border-right-color: rgb(7, 63, 41);
+    border-top-color: rgb(7, 63, 41);
+    border-bottom-color: rgb(7, 63, 41);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    scale: 0.95 0.95;
+}
+
+.contenedor {
+    flex-grow: 1;
+    background-color: rgb(187, 226, 208);
+    width: 409px;
+}

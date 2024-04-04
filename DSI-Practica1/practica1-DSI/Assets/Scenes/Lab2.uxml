@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/uss/lab2.uss?fileID=7433441132597879392&amp;guid=502c3e6f453b38a44904c7fd97aaccb0&amp;type=3#lab2" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgb(109, 201, 255); -unity-background-image-tint-color: rgb(72, 176, 209); width: 668px;">
+        <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" name="Mana" class="unity-base-slider_dragger unity-base-slider_unity-tracker unity-base-slider_drag-container" />
+    </ui:VisualElement>
+</ui:UXML>
