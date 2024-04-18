@@ -22,3 +22,41 @@
     background-color: rgb(187, 226, 208);
     width: 409px;
 }
+
+.caja {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    align-self: stretch;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(7, 63, 41);
+    border-right-color: rgb(7, 63, 41);
+    border-top-color: rgb(7, 63, 41);
+    border-bottom-color: rgb(7, 63, 41);
+}
+
+.caja:hover {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    align-self: stretch;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(7, 63, 41);
+    border-right-color: rgb(7, 63, 41);
+    border-top-color: rgb(7, 63, 41);
+    border-bottom-color: rgb(7, 63, 41);
+    scale: 1.1 1.1;
+    rotate: 3deg;
+}

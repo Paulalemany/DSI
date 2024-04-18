@@ -28,11 +28,11 @@ public class Lab4 : MonoBehaviour
 
         texto.text = @"
         <line-indent=15%>Habia una vez <smallcaps>una tierra,</smallcaps> </line-indent><br>
-        Donde <rotate=""45""> el sol nunca se pone,</rotate>
-        <b><gradient=""cuatro colores"">Y la gente era amable,</gradient><b>
+        Donde <rotate=""45""> el sol nunca se pone</rotate>,
+        <b><gradient=""cuatro colores"">Y la gente era amable</gradient><b>,
         Y la tierra nunca estaba mojada.
-        <b><color=""black""><gradient=""Complementario"">La tierra era tan hermosa,</gradient><b>
-        <i>que la gente nunca se fue.</i>
+        <b><color=""black""><gradient=""Complementario"">La tierra era tan hermosa</gradient><b>,
+        <i>que la gente nunca se fue.
         ";
 
     }
