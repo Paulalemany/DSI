@@ -180,7 +180,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "U:\\hlocal\\P&P\\DSI\\DSI-Practica",
+      "PayloadDebugContentSnippet": "C:\\hlocal\\P&P\\DSI\\DSI-Practica",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -206,7 +206,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 45992,
       "PayloadLength": 58,
-      "PayloadDebugContentSnippet": "/pathmap:\"U:\\hlocal\\P&P\\DSI\\DS",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\hlocal\\P&P\\DSI\\DS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2416,7 +2416,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 54752,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "U:\\hlocal\\P&P\\DSI\\DSI-Practica",
+      "PayloadDebugContentSnippet": "C:\\hlocal\\P&P\\DSI\\DSI-Practica",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -2442,7 +2442,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 106734,
       "PayloadLength": 58,
-      "PayloadDebugContentSnippet": "/pathmap:\"U:\\hlocal\\P&P\\DSI\\DS",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\hlocal\\P&P\\DSI\\DS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -3146,7 +3146,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 115665,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "U:\\hlocal\\P&P\\DSI\\DSI-Practica",
+      "PayloadDebugContentSnippet": "C:\\hlocal\\P&P\\DSI\\DSI-Practica",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.UnityAdditionalFile.txt"
@@ -3172,7 +3172,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 149180,
       "PayloadLength": 58,
-      "PayloadDebugContentSnippet": "/pathmap:\"U:\\hlocal\\P&P\\DSI\\DS",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\hlocal\\P&P\\DSI\\DS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.rsp2"
@@ -3705,7 +3705,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 158198,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "U:\\hlocal\\P&P\\DSI\\DSI-Practica",
+      "PayloadDebugContentSnippet": "C:\\hlocal\\P&P\\DSI\\DSI-Practica",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -3731,7 +3731,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 195653,
       "PayloadLength": 58,
-      "PayloadDebugContentSnippet": "/pathmap:\"U:\\hlocal\\P&P\\DSI\\DS",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\hlocal\\P&P\\DSI\\DS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -4289,7 +4289,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 204670,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "U:\\hlocal\\P&P\\DSI\\DSI-Practica",
+      "PayloadDebugContentSnippet": "C:\\hlocal\\P&P\\DSI\\DSI-Practica",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.UnityAdditionalFile.txt"
@@ -4315,7 +4315,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 238127,
       "PayloadLength": 58,
-      "PayloadDebugContentSnippet": "/pathmap:\"U:\\hlocal\\P&P\\DSI\\DS",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\hlocal\\P&P\\DSI\\DS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.rsp2"
@@ -4850,7 +4850,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 247247,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "U:\\hlocal\\P&P\\DSI\\DSI-Practica",
+      "PayloadDebugContentSnippet": "C:\\hlocal\\P&P\\DSI\\DSI-Practica",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.UnityAdditionalFile.txt"
@@ -4876,7 +4876,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 280860,
       "PayloadLength": 58,
-      "PayloadDebugContentSnippet": "/pathmap:\"U:\\hlocal\\P&P\\DSI\\DS",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\hlocal\\P&P\\DSI\\DS",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp2"
@@ -5415,7 +5415,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 290057,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "U:\\hlocal\\P&P\\DSI\\DSI-Practica",
+      "PayloadDebugContentSnippet": "C:\\hlocal\\P&P\\DSI\\DSI-Practica",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -6175,7 +6175,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/software/programacion/unity/2022.3.5f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/software/programacion/unity/2022.3.5f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"U:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"U:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"U:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/Managed/UnityEngine\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"U:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/ScriptAssemblies\" -s=\"U:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/software/programacion/unity/2022.3.5f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/software/programacion/unity/2022.3.5f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"C:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"C:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/Managed/UnityEngine\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"C:/software/programacion/unity/2022.3.5f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"C:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/ScriptAssemblies\" -s=\"C:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/software/programacion/unity/2022.3.5f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/software/programacion/unity/2022.3.5f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -6378,6 +6378,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "U:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/hlocal/P&P/DSI/DSI-Practica1/practica1-DSI/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

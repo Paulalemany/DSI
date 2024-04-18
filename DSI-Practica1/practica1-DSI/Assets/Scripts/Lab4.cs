@@ -1,3 +1,4 @@
+using System.Drawing;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -15,13 +16,29 @@ public class Lab4 : MonoBehaviour
         item3 = new VisualElement();
         item3.name = "item3";
         item3.AddToClassList("item");
-        //item3.style.height = 200;
-        item3.style.backgroundColor = Color.cyan;
+        item3.style.backgroundColor = UnityEngine.Color.cyan;
 
         contenedor.Add(item3);
 
         Debug.Log("Dentro de OnEnable");
+
+        //Texto??
+        Label texto = rootve.Q<Label>("texto");
+        item1.style.backgroundColor = UnityEngine.Color.white;
+
+        texto.text = @"
+            <line-indent=15%>Habia una vez <smallcaps>una tierra,</smallcaps> </line-indent><br>";
+
     }
+
+    /// <summary>
+    /// Donde <rotate= ""45"">el sol nunca se pone,</rotate>
+    /// <b><gradient=""CuatroColores"">Y la gente era amable,</gradient><b>
+    /// Y la tierra nunca estaba mojada.
+    /// <b><color = ""black""><gradient = ""Complementario"">La tierra era tan hermosa,</gradient><b>
+    /// <i>que la gente nunca se fue.</i>";
+    /// </summary>
+
 
     private void Update()
     {
