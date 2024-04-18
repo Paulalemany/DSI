@@ -338,12 +338,19 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -analyzer:"C:/software/programacion/unity/2022.3.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/software/programacion/unity/2022.3.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/BaseDatos.cs"
 "Assets/Scripts/ExampleDragger.cs"
 "Assets/Scripts/ExampleResizer.cs"
+"Assets/Scripts/Individuo.cs"
 "Assets/Scripts/Lab3.cs"
 "Assets/Scripts/Lab3b.cs"
 "Assets/Scripts/Lab3Manipulator.cs"
 "Assets/Scripts/Lab4.cs"
+"Assets/Scripts/Lab5.cs"
+"Assets/Scripts/Lab5b.cs"
+"Assets/Scripts/Lab5c.cs"
+"Assets/Scripts/Tarjeta.cs"
+"Assets/Scripts/TarjetaC.cs"
 -langversion:9.0
 
 /deterministic
