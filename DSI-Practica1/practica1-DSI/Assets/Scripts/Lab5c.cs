@@ -44,7 +44,7 @@ namespace Lab5c_namespace
             individuos = Basedatos.getData();
 
             VisualElement panelDcha = root.Q("Dcha");
-            panelDcha.RegisterCallback<ClickEvent>(seleccionTarjeta);
+            panelDcha.RegisterCallback<ClickEvent>(SeleccionTarjeta);
 
             //plantilla.RegisterCallback<ClickEvent>(SeleccionIndividuo);
             input_nombre.RegisterCallback<ChangeEvent<string>>(CambioNombre);

@@ -27,7 +27,7 @@ public class Lab5 : MonoBehaviour
         input_apellido.RegisterCallback<ChangeEvent<string>>(CambioApellido);
     }
 
-    void SeleccionIndividual(ClickEvent evt)
+    void SeleccionIndividuo(ClickEvent evt)
     {
         string nombre = plantilla.Q<Label>("Nombre").text;
         string apellido = plantilla.Q<Label>("Apellido").text;
