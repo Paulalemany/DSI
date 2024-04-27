@@ -1,9 +1,12 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/uss/lab4b.uss?fileID=7433441132597879392&amp;guid=84daaea00181c7d4dbae3bd52247e370&amp;type=3#lab4b" />
-    <ui:VisualElement name="Contenedor" style="flex-grow: 1; background-color: rgb(241, 228, 130); flex-direction: column; align-items: auto; justify-content: flex-start; align-self: auto; height: auto; flex-wrap: nowrap;">
-        <ui:VisualElement name="Caja1" class="caja" style="flex-direction: column; align-self: flex-start; width: 50%; height: 50%; flex-grow: 1; position: absolute;" />
-        <ui:VisualElement name="Caja1" class="caja" style="flex-direction: column; align-self: flex-end; width: 50%; height: 50%; position: absolute;" />
-        <ui:VisualElement name="Caja1" class="caja" style="flex-direction: column; align-self: flex-start; width: 50%; height: 50%; flex-grow: 1; position: absolute; transform-origin: bottom; translate: 0 397px; justify-content: flex-start; align-items: flex-start;" />
-        <ui:VisualElement name="Caja1" class="caja" style="flex-direction: column; align-self: flex-end; width: 50%; height: 50%; position: absolute; translate: 0 398px;" />
+    <ui:VisualElement name="ContenedorCajas" style="height: 510px;">
+        <Style src="project://database/Assets/uss/contenedorCajas.uss?fileID=7433441132597879392&amp;guid=02ed93541098bd241834f36fcd48ef33&amp;type=3#contenedorCajas" />
+        <ui:VisualElement name="Contenedor" style="flex-grow: 1; background-color: rgb(241, 228, 130); flex-direction: column; align-items: auto; justify-content: flex-start; align-self: auto; height: auto; flex-wrap: nowrap; -unity-background-scale-mode: stretch-to-fill;">
+            <ui:VisualElement name="Caja1" class="caja" />
+            <ui:VisualElement name="Caja2" class="caja" style="flex-direction: column; align-self: flex-end; width: 50%; height: 50%; position: absolute;" />
+            <ui:VisualElement name="Caja3" class="caja" style="flex-direction: column; align-self: flex-start; width: 50%; height: 50%; position: absolute; transform-origin: top; translate: 0 100%;" />
+            <ui:VisualElement name="Caja4" class="caja" style="flex-direction: column; align-self: flex-end; width: 50%; height: 50%; position: absolute; translate: 0 100%; transform-origin: top;" />
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
