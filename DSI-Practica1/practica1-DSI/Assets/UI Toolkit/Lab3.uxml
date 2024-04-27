@@ -1,5 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:VisualElement name="ContenedorVerde" style="flex-grow: 1; background-color: rgb(135, 217, 85);" />
-    <ui:VisualElement name="ContenedorAzul" style="flex-grow: 1; background-color: rgb(4, 207, 255);" />
-    <ui:VisualElement name="ItemAmarillo" style="flex-grow: 1; background-color: rgb(255, 243, 0);" />
-</ui:UXML>

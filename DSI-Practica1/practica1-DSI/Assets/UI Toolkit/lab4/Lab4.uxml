@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/uss/lab4.uss?fileID=7433441132597879392&amp;guid=ba3f6f16867b81f4591c58db58af2ad4&amp;type=3#lab4" />
+    <ui:VisualElement name="Contenedor" class="contenedor">
+        <ui:VisualElement name="item1" class="item">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="texto" />
+        </ui:VisualElement>
+        <ui:VisualElement name="item2" class="item" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: auto; flex-direction: column; align-items: stretch; align-self: stretch;">
+            <ui:VisualElement name="caja1" class="caja" style="height: auto; width: auto;" />
+            <ui:VisualElement name="caja2" class="caja" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column; width: auto;" />
+            <ui:VisualElement name="caja3" class="caja" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: auto;" />
+            <ui:VisualElement name="caja4" class="caja" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: auto;" />
+            <ui:VisualElement name="caja5" class="caja" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: auto; align-self: auto;" />
+            <ui:VisualElement name="caja6" class="caja" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

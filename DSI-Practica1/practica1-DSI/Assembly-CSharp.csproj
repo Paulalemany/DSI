@@ -79,18 +79,19 @@
     <Compile Include="Assets\Scripts\Lab5.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\UI Toolkit\Lab3b.uxml" />
+    <None Include="Assets\UI Toolkit\Lab3\Lab3b.uxml" />
     <None Include="Assets\uss\lab2.uss" />
-    <None Include="Assets\UI Toolkit\Lab4c.uxml" />
-    <None Include="Assets\UI Toolkit\Lab4b.uxml" />
+    <None Include="Assets\UI Toolkit\lab4\Lab4c.uxml" />
+    <None Include="Assets\UI Toolkit\lab4\Lab4b.uxml" />
     <None Include="Assets\uss\contenedorCajas.uss" />
     <None Include="Assets\Resources\Templates\ContenedorCajas.uxml" />
     <None Include="Assets\uss\lab4b.uss" />
-    <None Include="Assets\UI Toolkit\Lab3.uxml" />
+    <None Include="Assets\UI Toolkit\Lab3\Lab3.uxml" />
     <None Include="Assets\uss\lab4.uss" />
     <None Include="Assets\uss\lab3b.uss" />
+    <None Include="Assets\UI Toolkit\lab4\Lab4d.uxml" />
     <None Include="Assets\Scenes\Lab2.uxml" />
-    <None Include="Assets\UI Toolkit\Lab4.uxml" />
+    <None Include="Assets\UI Toolkit\lab4\Lab4.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
