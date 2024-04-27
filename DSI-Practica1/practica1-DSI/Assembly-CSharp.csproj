@@ -60,23 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Individuo6.cs" />
-    <Compile Include="Assets\Scripts\Lab6.cs" />
-    <Compile Include="Assets\Scripts\Lab3Manipulator.cs" />
-    <Compile Include="Assets\Scripts\BaseDatos.cs" />
-    <Compile Include="Assets\Scripts\Lab5c.cs" />
-    <Compile Include="Assets\Scripts\Lab3b.cs" />
-    <Compile Include="Assets\Scripts\ExampleResizer.cs" />
-    <Compile Include="Assets\Scripts\Lab4c.cs" />
-    <Compile Include="Assets\Scripts\TarjetaC.cs" />
-    <Compile Include="Assets\Scripts\Lab3.cs" />
-    <Compile Include="Assets\Scripts\Tarjeta6.cs" />
-    <Compile Include="Assets\Scripts\Individuo.cs" />
-    <Compile Include="Assets\Scripts\Lab5b.cs" />
-    <Compile Include="Assets\Scripts\Tarjeta.cs" />
-    <Compile Include="Assets\Scripts\ExampleDragger.cs" />
-    <Compile Include="Assets\Scripts\Lab4.cs" />
-    <Compile Include="Assets\Scripts\Lab5.cs" />
+    <Compile Include="Assets\Scripts\Lab5\Lab5b.cs" />
+    <Compile Include="Assets\Scripts\Lab5\Individuo.cs" />
+    <Compile Include="Assets\Scripts\Lab5\BaseDatos.cs" />
+    <Compile Include="Assets\Scripts\Lab6\Tarjeta.cs" />
+    <Compile Include="Assets\Scripts\Lab5\Lab5.cs" />
+    <Compile Include="Assets\Scripts\Lab6\Tarjeta6.cs" />
+    <Compile Include="Assets\Scripts\Lab3\Lab3.cs" />
+    <Compile Include="Assets\Scripts\Lab6\TarjetaC.cs" />
+    <Compile Include="Assets\Scripts\Lab3\Lab3b.cs" />
+    <Compile Include="Assets\Scripts\Lab5\ExampleDragger.cs" />
+    <Compile Include="Assets\Scripts\Lab3\Lab3Manipulator.cs" />
+    <Compile Include="Assets\Scripts\Lab5\ExampleResizer.cs" />
+    <Compile Include="Assets\Scripts\Lab4\Lab4c.cs" />
+    <Compile Include="Assets\Scripts\Lab6\Lab6.cs" />
+    <Compile Include="Assets\Scripts\Lab4\Lab4.cs" />
+    <Compile Include="Assets\Scripts\Lab5\Individuo6.cs" />
+    <Compile Include="Assets\Scripts\Lab5\Lab5c.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI Toolkit\Lab3\Lab3b.uxml" />
