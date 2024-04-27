@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Lab5c.cs" />
     <Compile Include="Assets\Scripts\Lab3b.cs" />
     <Compile Include="Assets\Scripts\ExampleResizer.cs" />
+    <Compile Include="Assets\Scripts\Lab4c.cs" />
     <Compile Include="Assets\Scripts\TarjetaC.cs" />
     <Compile Include="Assets\Scripts\Lab3.cs" />
     <Compile Include="Assets\Scripts\Tarjeta6.cs" />
@@ -83,7 +84,7 @@
     <None Include="Assets\UI Toolkit\Lab4c.uxml" />
     <None Include="Assets\UI Toolkit\Lab4b.uxml" />
     <None Include="Assets\uss\contenedorCajas.uss" />
-    <None Include="Assets\Templates\ContenedorCajas.uxml" />
+    <None Include="Assets\Resources\Templates\ContenedorCajas.uxml" />
     <None Include="Assets\uss\lab4b.uss" />
     <None Include="Assets\UI Toolkit\Lab3.uxml" />
     <None Include="Assets\uss\lab4.uss" />
