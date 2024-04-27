@@ -1,15 +1,18 @@
 .caja {
-    flex-direction: column;
-    align-self: flex-start;
+    position: absolute;
     width: 50%;
     height: 50%;
-    position: absolute;
-    border-left-width: 1.5px;
-    border-right-width: 1.5px;
-    border-top-width: 1.5px;
-    border-bottom-width: 1.5px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
     border-left-color: rgb(0, 0, 0);
     border-right-color: rgb(0, 0, 0);
     border-top-color: rgb(0, 0, 0);
     border-bottom-color: rgb(0, 0, 0);
+}
+
+.caja:hover {
+    scale: 1.1 1.1;
+    background-color: rgb(201, 107, 243);
 }

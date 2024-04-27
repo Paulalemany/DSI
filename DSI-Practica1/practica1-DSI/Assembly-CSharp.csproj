@@ -80,6 +80,7 @@
   <ItemGroup>
     <None Include="Assets\UI Toolkit\Lab3b.uxml" />
     <None Include="Assets\uss\lab2.uss" />
+    <None Include="Assets\UI Toolkit\Lab4c.uxml" />
     <None Include="Assets\UI Toolkit\Lab4b.uxml" />
     <None Include="Assets\uss\contenedorCajas.uss" />
     <None Include="Assets\Templates\ContenedorCajas.uxml" />
