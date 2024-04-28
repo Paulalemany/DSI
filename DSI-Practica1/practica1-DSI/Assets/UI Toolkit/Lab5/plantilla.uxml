@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="plantilla" style="flex-grow: 1; background-color: rgb(7, 94, 0);">
+        <ui:VisualElement name="top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+        <ui:VisualElement name="mid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Nombre" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Apellido" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
