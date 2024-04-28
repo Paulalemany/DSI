@@ -7,6 +7,7 @@ public class Lab3Manipulator : MouseManipulator
     public Lab3Manipulator()
     {
         activators.Add(new ManipulatorActivationFilter { button = MouseButton.RightMouse });
+        //Debug.Log("Constructora Lab3Manipulator");
     }
     protected override void RegisterCallbacksOnTarget()
     {
@@ -22,7 +23,7 @@ public class Lab3Manipulator : MouseManipulator
     {
         Debug.Log(target.name + ": Click en Elemento");
 
-        if(CanStartManipulation(mev))
+        if (CanStartManipulation(mev))
         {
             //ESTO SERIA CON CLICK DERECHO
             target.style.borderBottomColor = Color.white;

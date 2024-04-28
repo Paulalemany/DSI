@@ -32,7 +32,7 @@ public class ExampleDragger : PointerManipulator
             return;
         }
 
-        if(CanStartManipulation(e))
+        if (CanStartManipulation(e))
         {
             m_Start = e.localPosition;
             m_PointerId = e.pointerId;
@@ -45,7 +45,7 @@ public class ExampleDragger : PointerManipulator
 
     protected void OnPointerMove(PointerMoveEvent e)
     {
-        if(!m_Active || !target.HasPointerCapture(m_PointerId))
+        if (!m_Active || !target.HasPointerCapture(m_PointerId))
         {
             return;
         }
@@ -60,7 +60,7 @@ public class ExampleDragger : PointerManipulator
 
     protected void OnPointerUp(PointerUpEvent e)
     {
-        if(!m_Active || !target.HasPointerCapture (m_PointerId) || !CanStopManipulation(e))
+        if (!m_Active || !target.HasPointerCapture(m_PointerId) || !CanStopManipulation(e))
         {
             return;
         }

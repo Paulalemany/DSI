@@ -69,14 +69,14 @@
     <Compile Include="Assets\Scripts\Lab3\Lab3.cs" />
     <Compile Include="Assets\Scripts\Lab6\TarjetaC.cs" />
     <Compile Include="Assets\Scripts\Lab3\Lab3b.cs" />
-    <Compile Include="Assets\Scripts\Lab5\ExampleDragger.cs" />
     <Compile Include="Assets\Scripts\Lab3\Lab3Manipulator.cs" />
-    <Compile Include="Assets\Scripts\Lab5\ExampleResizer.cs" />
     <Compile Include="Assets\Scripts\Lab4\Lab4c.cs" />
+    <Compile Include="Assets\Scripts\Lab3\ExampleDragger.cs" />
     <Compile Include="Assets\Scripts\Lab6\Lab6.cs" />
     <Compile Include="Assets\Scripts\Lab4\Lab4.cs" />
     <Compile Include="Assets\Scripts\Lab5\Individuo6.cs" />
     <Compile Include="Assets\Scripts\Lab5\Lab5c.cs" />
+    <Compile Include="Assets\Scripts\Lab3\ExampleResizer.cs" />
     <Compile Include="Assets\Scripts\Lab4\Lab4d.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -89,9 +89,9 @@
     <None Include="Assets\Resources\Templates\ContenedorCajas.uxml" />
     <None Include="Assets\uss\lab4b.uss" />
     <None Include="Assets\uss\lab4.uss" />
-    <None Include="Assets\uss\lab3b.uss" />
     <None Include="Assets\UI Toolkit\lab4\Lab4d.uxml" />
     <None Include="Assets\Scenes\Lab2.uxml" />
+    <None Include="Assets\uss\itemLab3b.uss" />
     <None Include="Assets\UI Toolkit\lab4\Lab4.uxml" />
   </ItemGroup>
   <ItemGroup>

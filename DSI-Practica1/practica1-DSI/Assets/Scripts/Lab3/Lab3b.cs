@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -23,6 +22,18 @@ public class Lab3b : MonoBehaviour
         lveizda.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
         lvedcha.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
 
+        //ExampleDragger
+        izda.AddManipulator(new ExampleDragger());
+        dcha.AddManipulator(new ExampleDragger());
+        lvedcha.ForEach(elem => elem.AddManipulator(new ExampleDragger()));
+        lvedcha.ForEach(elem => elem.AddManipulator(new ExampleDragger()));
+
+        //ExampleResizer
+        izda.AddManipulator(new ExampleResizer());
+        dcha.AddManipulator(new ExampleResizer());
+        lvedcha.ForEach(elem => elem.AddManipulator(new ExampleResizer()));
+        lvedcha.ForEach(elem => elem.AddManipulator(new ExampleResizer()));
+
 
         izda.RegisterCallback<MouseDownEvent>(
             ev =>
@@ -31,18 +42,18 @@ public class Lab3b : MonoBehaviour
                 Debug.Log("Contenedor Izquierda. Target: " + (ev.target as VisualElement).name);
 
 
-                //Cambia color al clicar
+                //Cambia color al clic izdo
                 (ev.target as VisualElement).style.backgroundColor = Color.green;
 
             }, TrickleDown.TrickleDown);
-        
+
         dcha.RegisterCallback<MouseDownEvent>(
             ev =>
             {
                 Debug.Log("Contenedor Derecha. Fase: " + ev.propagationPhase);
                 Debug.Log("Contenedor Derecha. Target: " + (ev.target as VisualElement).name);
 
-                //Cambia color al clicar
+                //Cambia color al clic izdo
                 (ev.target as VisualElement).style.backgroundColor = Color.blue;
 
             }, TrickleDown.TrickleDown);
@@ -50,12 +61,12 @@ public class Lab3b : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
