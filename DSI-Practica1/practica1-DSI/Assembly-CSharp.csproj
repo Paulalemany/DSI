@@ -85,9 +85,9 @@
     <None Include="Assets\UI Toolkit\lab4\Lab4c.uxml" />
     <None Include="Assets\UI Toolkit\lab4\Lab4b.uxml" />
     <None Include="Assets\uss\contenedorCajas.uss" />
+    <None Include="Assets\UI Toolkit\Lab3\Lab3.uxml" />
     <None Include="Assets\Resources\Templates\ContenedorCajas.uxml" />
     <None Include="Assets\uss\lab4b.uss" />
-    <None Include="Assets\UI Toolkit\Lab3\Lab3.uxml" />
     <None Include="Assets\uss\lab4.uss" />
     <None Include="Assets\uss\lab3b.uss" />
     <None Include="Assets\UI Toolkit\lab4\Lab4d.uxml" />
@@ -915,24 +915,24 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Sysroot.Linux_x86_64.csproj">
-      <Project>{02FFE297-1D79-5895-B22B-ECC6EDA7E66B}</Project>
-      <Name>Unity.Sysroot.Linux_x86_64</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.SysrootPackage.Editor.csproj">
-      <Project>{4966CA9C-E5D4-2486-6552-869480658CD6}</Project>
-      <Name>Unity.SysrootPackage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{3457B5EE-F10F-818F-FE3A-BA6E2FFE47DB}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64.csproj">
-      <Project>{B1486EC4-7AF5-D5D8-BE18-B59CAF7CF099}</Project>
-      <Name>Unity.Toolchain.Win-x86_64-Linux-x86_64</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
