@@ -1,5 +1,4 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:Template name="plantilla" src="project://database/Assets/Templates/plantilla.uxml?fileID=9197481963319205126&amp;guid=491c79545f2ece040903de1949659cb9&amp;type=3#plantilla" />
     <Style src="project://database/Assets/uss/lab5.uss?fileID=7433441132597879392&amp;guid=7a207058205091f479db1af8c97a8554&amp;type=3#lab5" />
     <ui:VisualElement name="contenedor" style="flex-grow: 1; background-color: rgb(116, 146, 190); flex-direction: row;">
         <ui:VisualElement name="Izda" style="flex-grow: 1; background-color: rgb(233, 205, 120); width: 33.33%;">
@@ -15,8 +14,15 @@
                 <ui:TextField picking-mode="Ignore" label="Apellido" value="filler text" name="InputApellido" style="flex-direction: column; -unity-font-style: bold; font-size: 16px;" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="Dcha" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 33.33%;">
-            <ui:Instance template="plantilla" name="plantilla" style="width: 100%; height: 40.5%;" />
+        <ui:VisualElement name="Dcha" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 33.33%; flex-direction: row;">
+            <ui:VisualElement name="Tarjeta1" class="izquierda tarjeta" />
+            <ui:VisualElement name="Tarjeta2" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150);">
+                <ui:VisualElement name="top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                <ui:VisualElement name="mid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                <ui:VisualElement name="bottom" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Tarjeta3" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150); position: absolute; top: 51%; width: 47.5%; height: 47%;" />
+            <ui:VisualElement name="Tarjeta4" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150); position: absolute; top: 51%; left: 50%; width: 47.5%; height: 47%;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

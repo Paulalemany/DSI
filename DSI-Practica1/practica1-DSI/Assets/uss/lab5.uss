@@ -3,3 +3,18 @@
     -unity-font-style: bold;
     font-size: 16px;
 }
+
+.izquierda {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    width: 50%;
+    height: 50%;
+}
+
+.tarjeta {
+    background-color: rgb(132, 192, 150);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
