@@ -15,14 +15,42 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="Dcha" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 33.33%; flex-direction: row;">
-            <ui:VisualElement name="Tarjeta1" class="izquierda tarjeta" />
-            <ui:VisualElement name="Tarjeta2" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150);">
-                <ui:VisualElement name="top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
-                <ui:VisualElement name="mid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
-                <ui:VisualElement name="bottom" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Tarjeta1" class="izquierda tarjeta">
+                <ui:VisualElement name="top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;Images/Lobo&apos;); -unity-background-scale-mode: scale-to-fit; height: 33.33%;" />
+                <ui:VisualElement name="mid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" />
+                </ui:VisualElement>
+                <ui:VisualElement name="bottom" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" />
+                </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="Tarjeta3" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150); position: absolute; top: 51%; width: 47.5%; height: 47%;" />
-            <ui:VisualElement name="Tarjeta4" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150); position: absolute; top: 51%; left: 50%; width: 47.5%; height: 47%;" />
+            <ui:VisualElement name="Tarjeta2" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150);">
+                <ui:VisualElement name="top" class="caaj1" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;Images/Lobo&apos;); -unity-background-scale-mode: scale-to-fit; height: 33.33%;" />
+                <ui:VisualElement name="mid" class="caaj1" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" />
+                </ui:VisualElement>
+                <ui:VisualElement name="bottom" class="caaj1" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Tarjeta3" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150); position: absolute; top: 51%; width: 47.5%; height: 47%;">
+                <ui:VisualElement name="top" class="caaj" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;Images/Lobo&apos;); -unity-background-scale-mode: scale-to-fit; height: 33.33%;" />
+                <ui:VisualElement name="mid" class="caaj1" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" />
+                </ui:VisualElement>
+                <ui:VisualElement name="bottom" class="caaj1" style="height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Tarjeta4" class="izquierda tarjeta" style="flex-grow: 1; background-color: rgb(132, 192, 150); position: absolute; top: 51%; left: 50%; width: 47.5%; height: 47%;">
+                <ui:VisualElement name="top" class="caja" />
+                <ui:VisualElement name="mid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" style="height: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="bottom" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 33.33%;">
+                    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="letras" />
+                </ui:VisualElement>
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
