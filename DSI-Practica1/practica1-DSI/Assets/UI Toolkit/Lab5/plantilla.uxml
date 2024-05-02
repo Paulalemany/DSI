@@ -1,11 +1,4 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:VisualElement name="plantilla" style="flex-grow: 1; background-color: rgb(7, 94, 0);">
-        <ui:VisualElement name="top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
-        <ui:VisualElement name="mid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Nombre" />
-        </ui:VisualElement>
-        <ui:VisualElement name="bottom" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Apellido" />
-        </ui:VisualElement>
-    </ui:VisualElement>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="plantilla" src="project://database/Assets/Templates/plantilla.uxml?fileID=9197481963319205126&amp;guid=491c79545f2ece040903de1949659cb9&amp;type=3#plantilla" />
+    <ui:Instance template="plantilla" name="plantilla" style="width: 351px; height: 450px;" />
 </ui:UXML>

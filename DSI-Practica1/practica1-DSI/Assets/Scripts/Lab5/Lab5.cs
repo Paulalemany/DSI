@@ -1,8 +1,5 @@
-﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -13,14 +10,15 @@ public class Lab5 : MonoBehaviour
     TextField input_nombre;
     TextField input_apellido;
 
+    VisualElement seleccionado;
 
     private void OnEnable()
     {
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
 
-        plantilla = root.Q("plantilla");
-        input_nombre = root.Q<TextField>("InputNombre");
-        input_apellido = root.Q<TextField>("InputApellido");
+        plantilla       = root.Q("plantilla");
+        input_nombre    = root.Q<TextField>("InputNombre");
+        input_apellido  = root.Q<TextField>("InputApellido");
 
         plantilla.RegisterCallback<ClickEvent>(SeleccionIndividuo);
         input_nombre.RegisterCallback<ChangeEvent<string>>(CambioNombre);
@@ -40,8 +38,8 @@ public class Lab5 : MonoBehaviour
 
     void CambioNombre(ChangeEvent<string> evt)
     {
-        Label nombreLabel = plantilla.Q<Label>("Nombre");
-        nombreLabel.text = evt.newValue;
+        Label nombreLavel = plantilla.Q<Label>("Nombre");
+        nombreLavel.text = evt.newValue;
     }
 
     void CambioApellido(ChangeEvent<string> evt)

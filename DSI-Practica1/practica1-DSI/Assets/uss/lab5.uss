@@ -1,0 +1,5 @@
+.letras {
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    font-size: 16px;
+}

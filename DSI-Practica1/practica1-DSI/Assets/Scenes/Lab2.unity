@@ -401,6 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494038564}
   - component: {fileID: 494038565}
+  - component: {fileID: 494038566}
   m_Layer: 0
   m_Name: Lab5
   m_TagString: Untagged
@@ -437,8 +438,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: 486a4b9b9922db14a85ebc867573788f, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 9247b2d754e958843ac3ec89cd402277, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 284b3420ab499e24faf889e22a841098, type: 3}
   m_SortingOrder: 0
+--- !u!114 &494038566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494038563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fe4877aead4ce45b31e598183dcaac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &658366724
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +700,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1297007867
 Transform:
   m_ObjectHideFlags: 0
