@@ -62,9 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Lab5\Lab5b.cs" />
     <Compile Include="Assets\Scripts\Lab5\Individuo.cs" />
+    <Compile Include="Assets\Scripts\Lab5\BaseDatos.cs" />
     <Compile Include="Assets\Scripts\Lab6\Tarjeta.cs" />
     <Compile Include="Assets\Scripts\Lab5\Lab5.cs" />
     <Compile Include="Assets\Scripts\Lab6\Tarjeta6.cs" />
+    <Compile Include="Assets\Scripts\Lab5\userData.cs" />
     <Compile Include="Assets\Scripts\Lab3\Lab3.cs" />
     <Compile Include="Assets\Scripts\Lab6\TarjetaC.cs" />
     <Compile Include="Assets\Scripts\Lab5\Tarjeta.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="Assets\Scripts\Lab3\ExampleDragger.cs" />
     <Compile Include="Assets\Scripts\Lab6\Lab6.cs" />
     <Compile Include="Assets\Scripts\Lab4\Lab4.cs" />
+    <Compile Include="Assets\Scripts\Lab5\Lab5c.cs" />
     <Compile Include="Assets\Scripts\Lab3\ExampleResizer.cs" />
     <Compile Include="Assets\Scripts\Lab4\Lab4d.cs" />
   </ItemGroup>
