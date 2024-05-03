@@ -89,11 +89,13 @@
     <None Include="Assets\UI Toolkit\Lab5\plantilla.uxml" />
     <None Include="Assets\UI Toolkit\Lab3\Lab3.uxml" />
     <None Include="Assets\Resources\Templates\ContenedorCajas.uxml" />
+    <None Include="Assets\UI Toolkit\Lab6\Tarjeta.uxml" />
     <None Include="Assets\uss\lab4b.uss" />
     <None Include="Assets\UI Toolkit\Lab5\Lab5.uxml" />
     <None Include="Assets\Templates\plantilla.uxml" />
     <None Include="Assets\uss\lab5.uss" />
     <None Include="Assets\uss\lab4.uss" />
+    <None Include="Assets\UI Toolkit\Lab6\Lab6.uxml" />
     <None Include="Assets\UI Toolkit\lab4\Lab4d.uxml" />
     <None Include="Assets\Scenes\Lab2.uxml" />
     <None Include="Assets\uss\itemLab3b.uss" />
