@@ -64,12 +64,10 @@
     <Compile Include="Assets\Scripts\Lab6\Individuo6.cs" />
     <Compile Include="Assets\Scripts\Lab5\Individuo.cs" />
     <Compile Include="Assets\Scripts\Lab5\BaseDatos.cs" />
-    <Compile Include="Assets\Scripts\Lab6\Tarjeta.cs" />
     <Compile Include="Assets\Scripts\Lab5\Lab5.cs" />
     <Compile Include="Assets\Scripts\Lab6\Tarjeta6.cs" />
     <Compile Include="Assets\Scripts\Lab5\userData.cs" />
     <Compile Include="Assets\Scripts\Lab3\Lab3.cs" />
-    <Compile Include="Assets\Scripts\Lab6\TarjetaC.cs" />
     <Compile Include="Assets\Scripts\Lab5\Tarjeta.cs" />
     <Compile Include="Assets\Scripts\Lab3\Lab3b.cs" />
     <Compile Include="Assets\Scripts\Lab3\Lab3Manipulator.cs" />

@@ -14,7 +14,9 @@ namespace Lab6_namespace
         VisualElement contenedor_dcha;
         TextField input_nombre;
         TextField input_apellido;
-        //Individuo individuoSelec;
+        Individuo individuoSelec;
+
+        List<Individuo> list_individuos = new List<Individuo>(); //serializacion en formato json 
 
         private void OnEnable()
         {
@@ -34,39 +36,48 @@ namespace Lab6_namespace
 
         void NuevaTarjeta(ClickEvent evt)
         {
-            //if (!toggleModificar.value)
-            //{
-            //    VisualTreeAsset plantilla = Resources.Load<VisualTreeAsset>("Tarjeta");
-            //    VisualElement tarjetaPlantilla = plantilla.Instantiate();
+            if (!toggleModificar.value)
+            {
+                VisualTreeAsset plantilla = Resources.Load<VisualTreeAsset>("Tarjeta");
+                VisualElement tarjetaPlantilla = plantilla.Instantiate();
 
-            //    contenedor_dcha.Add(tarjetaPlantilla);
-            //    tarjetas_borde_negro();
-            //    tarjeta_borde_blanco(tarjetaPlantilla);
+                contenedor_dcha.Add(tarjetaPlantilla);
 
-            //    Individuo individuo = new Individuo(input_nombre.value, input_apellido.value);
-            //    Tarjeta tarjeta = new Tarjeta(tarjetaPlantilla, individuo);
-            //    individuoSelec = individuo;
-            //}
+                tarjetas_borde_negro();
+                tarjeta_borde_blanco(tarjetaPlantilla);
+
+                Individuo individuo = new Individuo(input_nombre.value, input_apellido.value);
+                Tarjeta tarjeta = new Tarjeta(tarjetaPlantilla, individuo);
+                individuoSelec = individuo;
+
+                //serializacion en formato json 
+                list_individuos.Add(individuo);
+                list_individuos.ForEach(elem => {
+                    Debug.Log(elem.Nombre + " " + elem.Apellido);
+                    string jsonIndividuo = JsonUtility.ToJson(elem);
+                    Debug.Log(jsonIndividuo);
+                    });
+            }
         }
 
         void seleccionTarjeta(ClickEvent e)
         {
-            //VisualElement miTarjeta = e.target as VisualElement;
-            //individuoSelec = miTarjeta.userData as Individuo;
+            VisualElement miTarjeta = e.target as VisualElement;
+            individuoSelec = miTarjeta.userData as Individuo;
 
-            //input_nombre.SetValueWithoutNotify(individuoSelec.Nombre);
-            //input_apellido.SetValueWithoutNotify(individuoSelec.Apellido);
-            //toggleModificar.value = true;
+            input_nombre.SetValueWithoutNotify(individuoSelec.Nombre);
+            input_apellido.SetValueWithoutNotify(individuoSelec.Apellido);
+            toggleModificar.value = true;
 
-            //tarjetas_borde_negro();
-            //tarjeta_borde_blanco(miTarjeta);
+            tarjetas_borde_negro();
+            tarjeta_borde_blanco(miTarjeta);
         }
 
         void CambioNombre(ChangeEvent<string> evt)
         {
             if (toggleModificar.value)
             {
-                //individuoSelec.Nombre = evt.newValue;
+                individuoSelec.Nombre = evt.newValue;
             }
         }
 
@@ -74,7 +85,7 @@ namespace Lab6_namespace
         {
             if (toggleModificar.value)
             {
-                //individuoSelec.Apellido = evt.newValue;
+                individuoSelec.Apellido = evt.newValue;
             }
         }
 
