@@ -16,6 +16,8 @@ namespace Lab6_namespace
         TextField input_apellido;
         Individuo individuoSelec;
 
+        List<Individuo> list_individuos = new List<Individuo>(); //serializacion en formato json 
+
         private void OnEnable()
         {
             VisualElement root = GetComponent<UIDocument>().rootVisualElement;
@@ -26,7 +28,7 @@ namespace Lab6_namespace
             botonCrear = root.Q<Button>("BotonCrear");
             toggleModificar = root.Q<Toggle>("ToggleModificar");
 
-            //contenedor_dcha.RegisterCallback<ClickEvent>(seleccionTarjeta);
+            contenedor_dcha.RegisterCallback<ClickEvent>(seleccionTarjeta);
             botonCrear.RegisterCallback<ClickEvent>(NuevaTarjeta);
             input_nombre.RegisterCallback<ChangeEvent<string>>(CambioNombre);
             input_apellido.RegisterCallback<ChangeEvent<string>>(CambioApellido);
@@ -41,12 +43,20 @@ namespace Lab6_namespace
 
                 contenedor_dcha.Add(tarjetaPlantilla);
 
-                //tarjetas_borde_negro();
-                //tarjeta_borde_blanco(tarjetaPlantilla);
+                tarjetas_borde_negro();
+                tarjeta_borde_blanco(tarjetaPlantilla);
 
                 Individuo individuo = new Individuo(input_nombre.value, input_apellido.value);
                 Tarjeta tarjeta = new Tarjeta(tarjetaPlantilla, individuo);
                 individuoSelec = individuo;
+
+                //serializacion en formato json 
+                list_individuos.Add(individuo);
+                list_individuos.ForEach(elem => {
+                    Debug.Log(elem.Nombre + " " + elem.Apellido);
+                    string jsonIndividuo = JsonUtility.ToJson(elem);
+                    Debug.Log(jsonIndividuo);
+                    });
             }
         }
 
