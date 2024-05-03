@@ -740,6 +740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1217595861}
   - component: {fileID: 1217595862}
+  - component: {fileID: 1217595863}
   m_Layer: 0
   m_Name: Lab6
   m_TagString: Untagged
@@ -778,6 +779,18 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: fbc2116b0d3e9e44faf1f6eb41b330c7, type: 3}
   m_SortingOrder: 0
+--- !u!114 &1217595863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217595860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832975123e814ed47bcd388220c4d758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1297007866
 GameObject:
   m_ObjectHideFlags: 0
